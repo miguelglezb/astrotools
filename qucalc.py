@@ -45,4 +45,4 @@ def T_bin(M,a,units='phantom'):
         K = day
     elif units=='year' or units=='yr' or units=='y':
         K = yr
-    return K*2*pi*np.sqrt(a**3/M)
+    return K*2*np.pi*np.sqrt(a**3/M)
